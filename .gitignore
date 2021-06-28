@@ -1,0 +1,14 @@
+/.idea/
+*.iml
+/.vscode/
+
+/node_modules/*
+/docs/*
+/build/*
+/public/*
+/config/*
+/temp/*
+/log/*
+
+npm-debug.json
+package-lock.json

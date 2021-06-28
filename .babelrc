@@ -1,0 +1,29 @@
+{
+	"presets": [
+		"@babel/preset-typescript",
+		[
+			"@babel/preset-env",
+			{
+				"targets": {
+					"browsers": ["last 2 versions", "safari >= 7"]
+				}
+			}
+		]
+	],
+	"plugins": [
+		"lodash",
+		"@babel/plugin-proposal-class-properties",
+		"@babel/plugin-proposal-object-rest-spread",
+		[
+			"module-resolver",
+			{
+				"alias": {
+					"~/data": "./source/common/data/",
+					"~/cts": "./source/common/ts/",
+					"~/server": "./source/server/ts/",
+					"~/@": "./source/@types/"
+				}
+			}
+		]
+	]
+}

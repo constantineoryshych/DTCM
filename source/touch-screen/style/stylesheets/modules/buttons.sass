@@ -1,0 +1,75 @@
+// -----------
+// Common
+// -----------
+.button
+    min-width: 435px
+    display: flex
+    justify-content: center
+    align-items: center
+
+    &.explore-more, &.back
+        padding: 0 35px 0 75px
+        background-image: url("/public/content-library/gui/touch-screen/icon/back-button.png")
+        background-repeat: no-repeat
+        background-position: 35px 50%
+
+    &.register-now
+        padding: 0 75px 0 35px
+        background-image: url("/public/content-library/gui/touch-screen/icon/forward-button.png")
+        background-repeat: no-repeat
+        background-position: 220px 50%
+
+    &.explore-more
+        @extend .blue, .light
+
+    &.register-now, &.back
+        @extend .blue
+
+    &.policy
+        @extend .grey
+
+        height: 60px
+
+    &.done
+        @extend .pink
+
+        height: 90px
+
+// -----------
+// Welcome Step
+// -----------
+.welcome-page .lang-grid .button
+    min-width: 270px
+    width: 270px
+    height: 90px
+    background-color: rgba(242, 242, 242, 0.75)
+    margin: 45px 15px
+
+    &:active, &:hover
+        background-color: $pink
+
+// -----------
+// Header
+// -----------
+header .button-wrap > .button
+	min-width: 300px
+	width: 300px
+	height: 75px
+	margin: 0 1px
+	&:last-child
+		border-bottom-right-radius: 30px
+
+// -----------
+// Footer
+// -----------
+.form-bottom, .thank-you-bottom
+	display: flex
+	justify-content: space-between
+	padding: 0 105px
+
+	.policy
+        margin: auto 0 0
+        padding: 0 15px
+
+.thank-you-bottom > div:nth-child(1)
+	margin: 0 0 0 auto

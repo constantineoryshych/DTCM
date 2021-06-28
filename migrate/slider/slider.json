@@ -1,0 +1,1077 @@
+{
+	"wrap": [
+		{
+			"step": 0,
+			"stepType": null,
+			"screen": "mainScreen",
+			"key": "holding"
+		},
+		{
+			"step": 1,
+			"stepType": null,
+			"screen": "mainScreen",
+			"key": "holding"
+		},
+		{
+			"step": 2,
+			"stepType": null,
+			"screen": "mainScreen",
+			"key": "holding"
+		},
+		{
+			"step": 4,
+			"stepType": null,
+			"screen": "mainScreen",
+			"key": "holding"
+		},
+		{
+			"step": 5,
+			"stepType": null,
+			"screen": "mainScreen",
+			"key": "holding"
+		},
+		{
+			"step": 3,
+			"stepType": "exp1",
+			"screen": "mainScreen",
+			"key": "exp1"
+		},
+		{
+			"step": 3,
+			"stepType": "exp2",
+			"screen": "mainScreen",
+			"key": "exp2"
+		},
+		{
+			"step": 3,
+			"stepType": "exp3",
+			"screen": "mainScreen",
+			"key": "exp3"
+		},
+		{
+			"step": 3,
+			"stepType": "exp4",
+			"screen": "mainScreen",
+			"key": "exp4"
+		},
+		{
+			"step": 3,
+			"stepType": "exp5",
+			"screen": "mainScreen",
+			"key": "exp5"
+		},
+		{
+			"step": 3,
+			"stepType": "exp6",
+			"screen": "mainScreen",
+			"key": "exp6"
+		},
+		{
+			"step": 3,
+			"stepType": "exp7",
+			"screen": "mainScreen",
+			"key": "exp7"
+		},
+		{
+			"step": 3,
+			"stepType": "exp8",
+			"screen": "mainScreen",
+			"key": "exp8"
+		},
+		{
+			"step": 3,
+			"stepType": "pcg1",
+			"screen": "mainScreen",
+			"key": "pcg1"
+		},
+		{
+			"step": 3,
+			"stepType": "pcg2",
+			"screen": "mainScreen",
+			"key": "pcg2"
+		},
+		{
+			"step": 3,
+			"stepType": "pcg3",
+			"screen": "mainScreen",
+			"key": "pcg3"
+		},
+		{
+			"step": 3,
+			"stepType": "pcg4",
+			"screen": "mainScreen",
+			"key": "pcg4"
+		},
+		{
+			"step": 3,
+			"stepType": "pcg5",
+			"screen": "mainScreen",
+			"key": "pcg5"
+		},
+		{
+			"step": 1,
+			"stepType": null,
+			"screen": "touchScreen",
+			"key": "welcome"
+		}
+	],
+	"slider": [
+		{
+			"key": "holding",
+			"slides": [
+				{
+					"file": "HS_1.mp4",
+					"path": "public/content-library/slider/holding",
+					"text": ["Experience", "Dubai", "NOW"]
+				},
+				{
+					"file": "HS_2.jpg",
+					"path": "public/content-library/slider/holding",
+					"text": ["Experience", "Dubai", "NOW"]
+				},
+				{
+					"file": "HS_3.jpg",
+					"path": "public/content-library/slider/holding",
+					"text": ["Experience", "Dubai", "NOW"]
+				},
+				{
+					"file": "HS_4.jpg",
+					"path": "public/content-library/slider/holding",
+					"text": ["Experience", "Dubai", "NOW"]
+				},
+				{
+					"file": "HS_5.jpg",
+					"path": "public/content-library/slider/holding",
+					"text": ["Experience", "Dubai", "NOW"]
+				},
+				{
+					"file": "HS_6.jpg",
+					"path": "public/content-library/slider/holding",
+					"text": ["Experience", "Dubai", "NOW"]
+				},
+				{
+					"file": "HS_7.jpg",
+					"path": "public/content-library/slider/holding",
+					"text": ["Experience", "Dubai", "NOW"]
+				},
+				{
+					"file": "HS_8.jpg",
+					"path": "public/content-library/slider/holding",
+					"text": ["Experience", "Dubai", "NOW"]
+				},
+				{
+					"file": "HS_9.jpg",
+					"path": "public/content-library/slider/holding",
+					"text": ["Experience", "Dubai", "NOW"]
+				},
+				{
+					"file": "HS_10.jpg",
+					"path": "public/content-library/slider/holding",
+					"text": ["Experience", "Dubai", "NOW"]
+				},
+				{
+					"file": "HS_11.jpg",
+					"path": "public/content-library/slider/holding",
+					"text": ["Experience", "Dubai", "NOW"]
+				},
+				{
+					"file": "HS_12.jpg",
+					"path": "public/content-library/slider/holding",
+					"text": ["Experience", "Dubai", "NOW"]
+				},
+				{
+					"file": "HS_13.jpg",
+					"path": "public/content-library/slider/holding",
+					"text": ["Experience", "Dubai", "NOW"]
+				},
+				{
+					"file": "HS_14.jpg",
+					"path": "public/content-library/slider/holding",
+					"text": ["Experience", "Dubai", "NOW"]
+				},
+				{
+					"file": "HS_15.jpg",
+					"path": "public/content-library/slider/holding",
+					"text": ["Experience", "Dubai", "NOW"]
+				},
+				{
+					"file": "HS_16.jpg",
+					"path": "public/content-library/slider/holding",
+					"text": ["Experience", "Dubai", "NOW"]
+				},
+				{
+					"file": "HS_17.jpg",
+					"path": "public/content-library/slider/holding",
+					"text": ["Experience", "Dubai", "NOW"]
+				},
+				{
+					"file": "HS_18.jpg",
+					"path": "public/content-library/slider/holding",
+					"text": ["Experience", "Dubai", "NOW"]
+				},
+				{
+					"file": "HS_19.jpg",
+					"path": "public/content-library/slider/holding",
+					"text": ["Experience", "Dubai", "NOW"]
+				},
+				{
+					"file": "HS_20.jpg",
+					"path": "public/content-library/slider/holding",
+					"text": ["Experience", "Dubai", "NOW"]
+				},
+				{
+					"file": "HS_21.jpg",
+					"path": "public/content-library/slider/holding",
+					"text": ["Experience", "Dubai", "NOW"]
+				},
+				{
+					"file": "HS_22.jpg",
+					"path": "public/content-library/slider/holding",
+					"text": ["Experience", "Dubai", "NOW"]
+				},
+				{
+					"file": "HS_23.jpg",
+					"path": "public/content-library/slider/holding",
+					"text": ["Experience", "Dubai", "NOW"]
+				},
+				{
+					"file": "HS_24.jpg",
+					"path": "public/content-library/slider/holding",
+					"text": ["Experience", "Dubai", "NOW"]
+				},
+				{
+					"file": "HS_25.jpg",
+					"path": "public/content-library/slider/holding",
+					"text": ["Experience", "Dubai", "NOW"]
+				},
+				{
+					"file": "HS_26.jpg",
+					"path": "public/content-library/slider/holding",
+					"text": ["Experience", "Dubai", "NOW"]
+				}
+			]
+		},
+		{
+			"key": "exp1",
+			"slides": [
+				{
+					"file": "1_EXP_1.jpg",
+					"path": "public/content-library/experiences/exp1/slider",
+					"text": ["Awake"]
+				},
+				{
+					"file": "1_EXP_2.jpg",
+					"path": "public/content-library/experiences/exp1/slider",
+					"text": ["Captivate"]
+				},
+				{
+					"file": "1_EXP_3.jpg",
+					"path": "public/content-library/experiences/exp1/slider",
+					"text": ["Shop"]
+				},
+				{
+					"file": "1_EXP_4.jpg",
+					"path": "public/content-library/experiences/exp1/slider",
+					"text": ["Charm"]
+				},
+				{
+					"file": "1_EXP_5.jpg",
+					"path": "public/content-library/experiences/exp1/slider",
+					"text": ["Discover"]
+				},
+				{
+					"file": "1_EXP_6.jpg",
+					"path": "public/content-library/experiences/exp1/slider",
+					"text": ["Learn"],
+					"color": "b"
+				},
+				{
+					"file": "1_EXP_7.jpg",
+					"path": "public/content-library/experiences/exp1/slider",
+					"text": ["Inspire"]
+				},
+				{
+					"file": "1_EXP_8.jpg",
+					"path": "public/content-library/experiences/exp1/slider",
+					"text": ["Discover"]
+				},
+				{
+					"file": "1_EXP_9.jpg",
+					"path": "public/content-library/experiences/exp1/slider",
+					"text": ["Experience"]
+				},
+				{
+					"file": "1_EXP_10.jpg",
+					"path": "public/content-library/experiences/exp1/slider",
+					"text": ["Delight"]
+				},
+				{
+					"file": "1_EXP_11.jpg",
+					"path": "public/content-library/experiences/exp1/slider",
+					"text": ["Explore"],
+					"color": "b"
+				},
+				{
+					"file": "1_EXP_12.jpg",
+					"path": "public/content-library/experiences/exp1/slider",
+					"text": ["Enjoy"]
+				},
+				{
+					"file": "1_EXP_13.jpg",
+					"path": "public/content-library/experiences/exp1/slider",
+					"text": ["Savor"]
+				}
+			]
+		},
+		{
+			"key": "exp2",
+			"slides": [
+				{
+					"file": "2_EXP_1.jpg",
+					"path": "public/content-library/experiences/exp2/slider",
+					"text": ["Dine"]
+				},
+				{
+					"file": "2_EXP_2.jpg",
+					"path": "public/content-library/experiences/exp2/slider",
+					"text": ["Enjoy"]
+				},
+				{
+					"file": "2_EXP_3.jpg",
+					"path": "public/content-library/experiences/exp2/slider",
+					"text": ["Live"]
+				},
+				{
+					"file": "2_EXP_4.jpg",
+					"path": "public/content-library/experiences/exp2/slider",
+					"text": ["Thrill"]
+				},
+				{
+					"file": "2_EXP_5.jpg",
+					"path": "public/content-library/experiences/exp2/slider",
+					"text": ["Explore"]
+				},
+				{
+					"file": "2_EXP_6.jpg",
+					"path": "public/content-library/experiences/exp2/slider",
+					"text": ["Enjoy"]
+				},
+				{
+					"file": "2_EXP_7.jpg",
+					"path": "public/content-library/experiences/exp2/slider",
+					"text": ["Paddle"]
+				},
+				{
+					"file": "2_EXP_8.jpg",
+					"path": "public/content-library/experiences/exp2/slider",
+					"text": ["Unwind"]
+				},
+				{
+					"file": "2_EXP_9.jpg",
+					"path": "public/content-library/experiences/exp2/slider",
+					"text": ["Splash"]
+				},
+				{
+					"file": "2_EXP_10.jpg",
+					"path": "public/content-library/experiences/exp2/slider",
+					"text": ["Relax"]
+				}
+			]
+		},
+		{
+			"key": "exp3",
+			"slides": [
+				{
+					"file": "3_EXP_1.jpg",
+					"path": "public/content-library/experiences/exp3/slider",
+					"text": ["Discover"]
+				},
+				{
+					"file": "3_EXP_2.mp4",
+					"path": "public/content-library/experiences/exp3/slider",
+					"text": ["Enjoy"]
+				},
+				{
+					"file": "3_EXP_3.jpg",
+					"path": "public/content-library/experiences/exp3/slider",
+					"text": ["Thrill"]
+				},
+				{
+					"file": "3_EXP_4.jpg",
+					"path": "public/content-library/experiences/exp3/slider",
+					"text": ["Delight"]
+				},
+				{
+					"file": "3_EXP_5.jpg",
+					"path": "public/content-library/experiences/exp3/slider",
+					"text": ["Excite"]
+				},
+				{
+					"file": "3_EXP_6.jpg",
+					"path": "public/content-library/experiences/exp3/slider",
+					"text": ["Entertain"]
+				},
+				{
+					"file": "3_EXP_7.jpg",
+					"path": "public/content-library/experiences/exp3/slider",
+					"text": ["Inspire"]
+				},
+				{
+					"file": "3_EXP_8.jpg",
+					"path": "public/content-library/experiences/exp3/slider",
+					"text": ["Rush"],
+					"color": "b"
+				},
+				{
+					"file": "3_EXP_9.jpg",
+					"path": "public/content-library/experiences/exp3/slider",
+					"text": ["Splash"]
+				},
+				{
+					"file": "3_EXP_10.jpg",
+					"path": "public/content-library/experiences/exp3/slider",
+					"text": ["Thrill"]
+				}
+			]
+		},
+		{
+			"key": "exp4",
+			"slides": [
+				{
+					"file": "4_EXP_1.jpg",
+					"path": "public/content-library/experiences/exp4/slider",
+					"text": ["Discover"]
+				},
+				{
+					"file": "4_EXP_2.jpg",
+					"path": "public/content-library/experiences/exp4/slider",
+					"text": ["Awake"]
+				},
+				{
+					"file": "4_EXP_3.jpg",
+					"path": "public/content-library/experiences/exp4/slider",
+					"text": ["Captivate"]
+				},
+				{
+					"file": "4_EXP_4.jpg",
+					"path": "public/content-library/experiences/exp4/slider",
+					"text": ["Captivate"],
+					"color": "b"
+				},
+				{
+					"file": "4_EXP_5.mp4",
+					"path": "public/content-library/experiences/exp4/slider",
+					"text": ["Challenge"]
+				},
+				{
+					"file": "4_EXP_6.jpg",
+					"path": "public/content-library/experiences/exp4/slider",
+					"text": ["Indulge"]
+				},
+				{
+					"file": "4_EXP_7.jpg",
+					"path": "public/content-library/experiences/exp4/slider",
+					"text": ["Excite"]
+				},
+				{
+					"file": "4_EXP_8.mp4",
+					"path": "public/content-library/experiences/exp4/slider",
+					"text": ["Experience"]
+				},
+				{
+					"file": "4_EXP_9.jpg",
+					"path": "public/content-library/experiences/exp4/slider",
+					"text": ["Uncover"]
+				},
+				{
+					"file": "4_EXP_10.jpg",
+					"path": "public/content-library/experiences/exp4/slider",
+					"text": ["Rush"],
+					"color": "b"
+				},
+				{
+					"file": "4_EXP_11.mp4",
+					"path": "public/content-library/experiences/exp4/slider",
+					"text": ["Rush"],
+					"color": "b"
+				},
+				{
+					"file": "4_EXP_12.mp4",
+					"path": "public/content-library/experiences/exp4/slider",
+					"text": ["Splash"]
+				},
+				{
+					"file": "4_EXP_13.jpg",
+					"path": "public/content-library/experiences/exp4/slider",
+					"text": ["Rush"]
+				}
+			]
+		},
+		{
+			"key": "exp5",
+			"slides": [
+				{
+					"file": "5_EXP_1.jpg",
+					"path": "public/content-library/experiences/exp5/slider",
+					"text": ["Delight"]
+				},
+				{
+					"file": "5_EXP_2.jpg",
+					"path": "public/content-library/experiences/exp5/slider",
+					"text": ["Dine"]
+				},
+				{
+					"file": "5_EXP_3.jpg",
+					"path": "public/content-library/experiences/exp5/slider",
+					"text": ["Enjoy"]
+				},
+				{
+					"file": "5_EXP_4.jpg",
+					"path": "public/content-library/experiences/exp5/slider",
+					"text": ["Discover"]
+				},
+				{
+					"file": "5_EXP_5.jpg",
+					"path": "public/content-library/experiences/exp5/slider",
+					"text": ["Feast"],
+					"color": "b"
+				},
+				{
+					"file": "5_EXP_6.mp4",
+					"path": "public/content-library/experiences/exp5/slider",
+					"text": ["Savor"]
+				},
+				{
+					"file": "5_EXP_7.jpg",
+					"path": "public/content-library/experiences/exp5/slider",
+					"text": ["Taste"]
+				},
+				{
+					"file": "5_EXP_8.jpg",
+					"path": "public/content-library/experiences/exp5/slider",
+					"text": ["Uncover"]
+				},
+				{
+					"file": "5_EXP_9.jpg",
+					"path": "public/content-library/experiences/exp5/slider",
+					"text": ["Discover"]
+				},
+				{
+					"file": "5_EXP_10.jpg",
+					"path": "public/content-library/experiences/exp5/slider",
+					"text": ["Explore"]
+				}
+			]
+		},
+		{
+			"key": "exp6",
+			"slides": [
+				{
+					"file": "6_EXP_1.mp4",
+					"path": "public/content-library/experiences/exp6/slider",
+					"text": ["Uncover"],
+					"color": "b"
+				},
+				{
+					"file": "6_EXP_2.mp4",
+					"path": "public/content-library/experiences/exp6/slider",
+					"text": ["Indulge"]
+				},
+				{
+					"file": "6_EXP_3.jpg",
+					"path": "public/content-library/experiences/exp6/slider",
+					"text": ["Indulge"]
+				},
+				{
+					"file": "6_EXP_4.jpg",
+					"path": "public/content-library/experiences/exp6/slider",
+					"text": ["Awake"]
+				},
+				{
+					"file": "6_EXP_5.jpg",
+					"path": "public/content-library/experiences/exp6/slider",
+					"text": ["Relax"],
+					"color": "b"
+				},
+				{
+					"file": "6_EXP_6.jpg",
+					"path": "public/content-library/experiences/exp6/slider",
+					"text": ["Relax"]
+				},
+				{
+					"file": "6_EXP_7.jpg",
+					"path": "public/content-library/experiences/exp6/slider",
+					"text": ["Relax"]
+				},
+				{
+					"file": "6_EXP_8.jpg",
+					"path": "public/content-library/experiences/exp6/slider",
+					"text": ["Enjoy"]
+				},
+				{
+					"file": "6_EXP_9.jpg",
+					"path": "public/content-library/experiences/exp6/slider",
+					"text": ["Charm"]
+				},
+				{
+					"file": "6_EXP_10.jpg",
+					"path": "public/content-library/experiences/exp6/slider",
+					"text": ["Unwind"],
+					"color": "b"
+				}
+			]
+		},
+		{
+			"key": "exp7",
+			"slides": [
+				{
+					"file": "7_EXP_1.jpg",
+					"path": "public/content-library/experiences/exp7/slider",
+					"text": ["Explore"]
+				},
+				{
+					"file": "7_EXP_2.jpg",
+					"path": "public/content-library/experiences/exp7/slider",
+					"text": ["Unwind"]
+				},
+				{
+					"file": "7_EXP_3.jpg",
+					"path": "public/content-library/experiences/exp7/slider",
+					"text": ["Enjoy"]
+				},
+				{
+					"file": "7_EXP_4.mp4",
+					"path": "public/content-library/experiences/exp7/slider",
+					"text": ["Indulge"]
+				},
+				{
+					"file": "7_EXP_5.jpg",
+					"path": "public/content-library/experiences/exp7/slider",
+					"text": ["Pamper"]
+				},
+				{
+					"file": "7_EXP_6.jpg",
+					"path": "public/content-library/experiences/exp7/slider",
+					"text": ["Savor"]
+				},
+				{
+					"file": "7_EXP_7.jpg",
+					"path": "public/content-library/experiences/exp7/slider",
+					"text": ["Shop"]
+				},
+				{
+					"file": "7_EXP_8.jpg",
+					"path": "public/content-library/experiences/exp7/slider",
+					"text": ["Excite"]
+				},
+				{
+					"file": "7_EXP_9.jpg",
+					"path": "public/content-library/experiences/exp7/slider",
+					"text": ["Experience"]
+				}
+			]
+		},
+		{
+			"key": "exp8",
+			"slides": [
+				{
+					"file": "8_EXP_1.jpg",
+					"path": "public/content-library/experiences/exp8/slider",
+					"text": ["Awake"]
+				},
+				{
+					"file": "8_EXP_2.jpg",
+					"path": "public/content-library/experiences/exp8/slider",
+					"text": ["Live"]
+				},
+				{
+					"file": "8_EXP_3.jpg",
+					"path": "public/content-library/experiences/exp8/slider",
+					"text": ["Inspire"],
+					"color": "b"
+				},
+				{
+					"file": "8_EXP_4.jpg",
+					"path": "public/content-library/experiences/exp8/slider",
+					"text": ["Entertain"]
+				},
+				{
+					"file": "8_EXP_5.jpg",
+					"path": "public/content-library/experiences/exp8/slider",
+					"text": ["Enjoy"]
+				},
+				{
+					"file": "8_EXP_6.jpg",
+					"path": "public/content-library/experiences/exp8/slider",
+					"text": ["Thrill"]
+				},
+				{
+					"file": "8_EXP_7.mp4",
+					"path": "public/content-library/experiences/exp8/slider",
+					"text": ["Experience"]
+				},
+				{
+					"file": "8_EXP_8.jpg",
+					"path": "public/content-library/experiences/exp8/slider",
+					"text": ["Excite"]
+				},
+				{
+					"file": "8_EXP_9.mp4",
+					"path": "public/content-library/experiences/exp8/slider",
+					"text": ["Inspire"]
+				},
+				{
+					"file": "8_EXP_10.jpg",
+					"path": "public/content-library/experiences/exp8/slider",
+					"text": ["Rush"]
+				},
+				{
+					"file": "8_EXP_11.mp4",
+					"path": "public/content-library/experiences/exp8/slider",
+					"text": ["Captivate"]
+				}
+			]
+		},
+		{
+			"key": "pcg1",
+			"slides": [
+				{
+					"file": "1_PACK_1.mp4",
+					"path": "public/content-library/experiences/pcg1/slider",
+					"text": []
+				}
+			]
+		},
+		{
+			"key": "pcg2",
+			"slides": [
+				{
+					"file": "2_PACK_1.mp4",
+					"path": "public/content-library/experiences/pcg2/slider",
+					"text": []
+				}
+			]
+		},
+		{
+			"key": "pcg3",
+			"slides": [
+				{
+					"file": "3_PACK_1.mp4",
+					"path": "public/content-library/experiences/pcg3/slider",
+					"text": []
+				}
+			]
+		},
+		{
+			"key": "pcg4",
+			"slides": [
+				{
+					"file": "4_PACK_1.jpg",
+					"path": "public/content-library/experiences/pcg4/slider",
+					"text": ["Experience"]
+				},
+				{
+					"file": "4_PACK_2.mp4",
+					"path": "public/content-library/experiences/pcg4/slider",
+					"text": ["Cherish"]
+				},
+				{
+					"file": "4_PACK_3.jpg",
+					"path": "public/content-library/experiences/pcg4/slider",
+					"text": ["Attend"]
+				},
+				{
+					"file": "4_PACK_4.jpg",
+					"path": "public/content-library/experiences/pcg4/slider",
+					"text": ["Dine"]
+				},
+				{
+					"file": "4_PACK_5.jpg",
+					"path": "public/content-library/experiences/pcg4/slider",
+					"text": ["Relax"]
+				},
+				{
+					"file": "4_PACK_6.jpg",
+					"path": "public/content-library/experiences/pcg4/slider",
+					"text": ["Awake"],
+					"color": "b"
+				},
+				{
+					"file": "4_PACK_7.jpg",
+					"path": "public/content-library/experiences/pcg4/slider",
+					"text": ["Unwind"],
+					"color": "b"
+				},
+				{
+					"file": "4_PACK_8.jpg",
+					"path": "public/content-library/experiences/pcg4/slider",
+					"text": ["Enjoy"]
+				},
+				{
+					"file": "4_PACK_9.jpg",
+					"path": "public/content-library/experiences/pcg4/slider",
+					"text": ["Reflect"],
+					"color": "b"
+				},
+				{
+					"file": "4_PACK_10.jpg",
+					"path": "public/content-library/experiences/pcg4/slider",
+					"text": ["Savour"]
+				},
+				{
+					"file": "4_PACK_11.jpg",
+					"path": "public/content-library/experiences/pcg4/slider",
+					"text": ["Induge"]
+				},
+				{
+					"file": "4_PACK_12.jpg",
+					"path": "public/content-library/experiences/pcg4/slider",
+					"text": ["Delight"]
+				}
+			]
+		},
+		{
+			"key": "pcg5",
+			"slides": [
+				{
+					"file": "5_PACK_1.jpg",
+					"path": "public/content-library/experiences/pcg5/slider",
+					"text": ["Discover"]
+				},
+				{
+					"file": "5_PACK_2.jpg",
+					"path": "public/content-library/experiences/pcg5/slider",
+					"text": ["Captivate"]
+				},
+				{
+					"file": "5_PACK_3.jpg",
+					"path": "public/content-library/experiences/pcg5/slider",
+					"text": ["Explore"]
+				},
+				{
+					"file": "5_PACK_4.jpg",
+					"path": "public/content-library/experiences/pcg5/slider",
+					"text": ["Excite"]
+				},
+				{
+					"file": "5_PACK_5.jpg",
+					"path": "public/content-library/experiences/pcg5/slider",
+					"text": ["Splash"]
+				},
+				{
+					"file": "5_PACK_6.jpg",
+					"path": "public/content-library/experiences/pcg5/slider",
+					"text": ["Indulge"]
+				},
+				{
+					"file": "5_PACK_7.jpg",
+					"path": "public/content-library/experiences/pcg5/slider",
+					"text": ["Enjoy"]
+				},
+				{
+					"file": "5_PACK_8.jpg",
+					"path": "public/content-library/experiences/pcg5/slider",
+					"text": ["Live"],
+					"color": "b"
+				},
+				{
+					"file": "5_PACK_9.jpg",
+					"path": "public/content-library/experiences/pcg5/slider",
+					"text": ["Rush"]
+				},
+				{
+					"file": "5_PACK_10.jpg",
+					"path": "public/content-library/experiences/pcg5/slider",
+					"text": ["Thrill"]
+				}
+			]
+		},
+		{
+			"key": "welcome",
+			"slides": [
+				{
+					"file": "04.-La-Mer.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": []
+				},
+				{
+					"file": "160503_BURJ_AL_ARAB_TIMELAPSE_V1_25s_US.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": []
+				},
+				{
+					"file": "Adventure_Desert-Safari_Car-on-dune-sunset.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": []
+				},
+				{
+					"file": "Atlantis-NEW.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": []
+				},
+				{
+					"file": "Attraction_SZR_DIFC-area.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": []
+				},
+				{
+					"file": "Bastakya20.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": []
+				},
+				{
+					"file": "beaches-29.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": []
+				},
+				{
+					"file": "beaches-36.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": []
+				},
+				{
+					"file": "Bedouin-Suite---private-pool.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": []
+				},
+				{
+					"file": "Burj_Khalifa_Armani_dusk_shot_hi_res.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": []
+				},
+				{
+					"file": "creek-8.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": [],
+					"delay": 5000
+				},
+				{
+					"file": "desert-7.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": [],
+					"delay": 5000
+				},
+				{
+					"file": "desert-15.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": [],
+					"delay": 5000
+				},
+				{
+					"file": "DSF-2017---16.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": [],
+					"delay": 5000
+				},
+				{
+					"file": "dubai-marina-28.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": [],
+					"delay": 5000
+				},
+				{
+					"file": "Etihad-Museum-24.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": [],
+					"delay": 5000
+				},
+				{
+					"file": "events_weddings_25_06_2012_3074hr.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": [],
+					"delay": 5000
+				},
+				{
+					"file": "HH-skydive-0000-0003.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": [],
+					"delay": 5000
+				},
+				{
+					"file": "I65A1235.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": [],
+					"delay": 5000
+				},
+				{
+					"file": "Jumeirah-Beach-Hotel---Talise---Watersports---Sailing.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": [],
+					"delay": 5000
+				},
+				{
+					"file": "Jumeirah-Mosque-02.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": [],
+					"delay": 5000
+				},
+				{
+					"file": "Madinat-Jumeirah.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": [],
+					"delay": 5000
+				},
+				{
+					"file": "Marine_Landscape_JBR-from-101.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": [],
+					"delay": 5000
+				},
+				{
+					"file": "Pool-1.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": [],
+					"delay": 5000
+				},
+				{
+					"file": "ShadowPP-DTCM13-0429.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": [],
+					"delay": 5000
+				},
+				{
+					"file": "ShadowPP-DTCM13-1270.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": [],
+					"delay": 5000
+				},
+				{
+					"file": "ShadowPP-DTCM13-2036.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": [],
+					"delay": 5000
+				},
+				{
+					"file": "ShadowPP-DTCM13-5207.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": [],
+					"delay": 5000
+				},
+				{
+					"file": "ShadowPP-DTCM13-6702.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": [],
+					"delay": 5000
+				},
+				{
+					"file": "ShadowPP-DTCM13-Pano2.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": [],
+					"delay": 5000
+				},
+				{
+					"file": "ShadowPP-DTCM14-P2-0004.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": [],
+					"delay": 5000
+				},
+				{
+					"file": "The-Address-Downtown-&-The-Palace---overlooking-Dubai-Fountain.jpg",
+					"path": "public/content-library/slider/welcome",
+					"text": [],
+					"delay": 5000
+				}
+			]
+		}
+	]
+}

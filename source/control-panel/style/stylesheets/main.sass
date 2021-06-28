@@ -1,0 +1,219 @@
+@charset "utf-8"
+
+@import source/common/style/stylesheets/vendor/reset.sass
+@import source/common/style/stylesheets/modules/typography.sass
+@import source/common/style/stylesheets/modules/colors.sass
+
+$bg: #f3f3f3
+$mainText: #009bdf
+$header: white
+
+body
+	background-color: $bg
+	color: $mainText
+
+	&.photo
+		width: 1920px
+		height: 1080px
+
+	header
+		background-color: $header
+
+//=================================
+//	I Typography
+//---------------------------------
+.home-header
+	text-align: left
+
+	div.month,
+	div.year
+		> p
+			color: #4d4d4d
+			font: normal 18px Dubai-Regular
+
+		> select
+			color: #009bdf
+			font: normal 24px Dubai-Regular
+
+.home-main
+	.block
+		.head
+			text-align: left
+			text-transform: uppercase
+			white-space: pre-line
+
+			> div
+				> h1
+					font: bold 30px Dubai-Bold
+
+				> h3
+					font: normal 13px Dubai-Regular
+
+.email-list
+	font: normal 18px Dubai-Regular
+	color: #4c4c4c
+
+//=================================
+//	II Grid
+//---------------------------------
+.home-header
+	display: flex
+	justify-content: space-between
+	width: 100%
+	height: 150px
+	padding: 45px
+	box-sizing: border-box
+
+	> div.left
+		margin: auto 0
+		display: flex
+
+		div.month,
+		div.year
+			> select
+				border: 1px solid #4d4d4d
+				width: 225px
+				height: 45px
+				margin: 0 30px 0 0
+
+	> div.center
+		margin: auto 0
+
+		button.all-pdf
+			width: 300px
+			height: 60px
+			background: #0090d6
+			border: 1px solid #0090d6
+			color: white
+			font: bold 24px Dubai-Bold
+			border-radius: 20px 0px 20px 0px
+			-moz-border-radius: 20px 0px 20px 0px
+			-webkit-border-radius: 20px 0px 20px 0px
+
+	> div.right
+		margin: 0 0 0
+		display: flex
+		justify-content: center
+		text-align: center
+		align-items: center
+
+		> p,
+		> div
+			color: #4d4d4d
+			font: normal 18px Dubai-Regular
+
+		> div
+			margin: 0 30px
+			width: 30px
+			height: 30px
+			background: #f3f3f3
+
+		button.select-pdf
+			width: 300px
+			height: 60px
+			background: #c5559a
+			border: 1px solid #c5559a
+			color: white
+			font: bold 24px Dubai-Bold
+			border-radius: 20px 0px 20px 0px
+			-moz-border-radius: 20px 0px 20px 0px
+			-webkit-border-radius: 20px 0px 20px 0px
+
+.home-main
+	width: 100%
+
+	.pie-interections,
+	.pie-language,
+	.pie-wishlist,
+	.pie-time-spent
+		width: 49.5%
+		float: left
+
+	.block
+		width: 98%
+		height: 780px
+		background: $header
+		display: flex
+		flex-direction: column
+		justify-content: center
+		margin: 30px 15px
+
+		// &:last-child
+		// 	height: auto
+
+		.head
+			padding: 60px 0
+			margin: auto
+			width: 90%
+			border-bottom: 1px solid #009bdf
+			display: flex
+			justify-content: space-between
+
+			> button
+				width: 150px
+				height: 60px
+				border: 1px solid #009bdf
+				font: normal 24px Dubai-Regular
+				color: #009bdf
+				border-radius: 20px 0px 20px 0px
+				-moz-border-radius: 20px 0px 20px 0px
+				-webkit-border-radius: 20px 0px 20px 0px
+
+		// > div
+		// 	height: 78%
+
+	.combo-chart
+		max-width: 1590px
+		height: 780px
+
+	.email-list
+		height: 100%
+		width: 90%
+		margin: auto
+		display: flex
+		flex-wrap: wrap
+
+		.row
+			min-width: 250px
+			width: 25%
+			box-sizing: border-box
+			display: flex
+			padding: 5px 15px
+
+			> div
+				min-width: 50px
+				padding: 0 5px
+				
+
+
+
+//=================================
+//	III Main
+//---------------------------------
+
+.home-header
+	background: $header
+
+.home-main
+	.block
+		// Shadow ----
+		-webkit-box-shadow: (-5px) 6px 30px -12px rgba(0, 0, 0, 0.88)
+		-moz-box-shadow: (-5px) 6px 30px -12px rgba(0, 0, 0, 0.88)
+		box-shadow: (-5px) 6px 30px -12px rgba(0, 0, 0, 0.55)
+
+	// ----
+
+	.combo-chart
+		background: $header
+
+
+.in-progress
+	height: 80%
+	margin: 0 150px 
+
+	p 
+		font: 48px/24px Dubai-Regular
+		margin-top: 50px
+
+@import ./pdf.sass
+@import ./modalPdf.sass

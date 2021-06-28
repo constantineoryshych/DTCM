@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>DTCM | Touch Screen App</title>
+    <!-- <link rel="stylesheet" href="./style/touch-screen.min.css"> -->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <style>
+        #container {
+            display: flex;  
+        }
+        .lang, .exp {
+            display: flex;
+            margin: auto;
+            flex-wrap: wrap
+        }
+        .lang > div, 
+        .exp > div {
+                text-align: center;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                width: 100px;
+                margin: 10px 15px;
+                padding: 10px 25px;
+                background: lightslategray;
+                font-size: 28px
+            }
+        .lang > div:hover, .lang > div:active,
+        .exp > div:hover, .exp > div:active {
+            background: darkgoldenrod;
+            color: white;
+        }
+        .lang > div.current {
+            background: green;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div class="lang">
+        <div class="en current" onClick="setLang('en')">en</div>
+        <div class="ru" onClick="setLang('ru')">ru</div>
+        <div class="fr" onClick="setLang('fr')">fr</div>
+        <div class="it" onClick="setLang('it')">it</div>
+        <div class="es" onClick="setLang('es')">es</div>
+        <div class="zh" onClick="setLang('zh')">zh</div>
+        <div class="ar" onClick="setLang('ar')">ar</div>
+        <div class="de" onClick="setLang('de')">de</div>
+    </div>
+    <div class="exp">
+            <div onclick="send(3, 'exp1')">Exp 1</div>
+            <div onclick="send(3, 'exp2')">Exp 2</div>
+            <div onclick="send(3, 'exp3')">Exp 3</div>
+            <div onclick="send(3, 'exp4')">Exp 4</div>
+            <div onclick="send(3, 'exp5')">Exp 5</div>
+            <div onclick="send(3, 'exp6')">Exp 6</div>
+            <div onclick="send(3, 'exp7')">Exp 7</div>
+            <div onclick="send(3, 'exp8')">Exp 8</div>
+            <div onclick="send(3, 'pcg1')">Pcg 1</div>
+            <div onclick="send(3, 'pcg2')">Pcg 2</div>
+            <div onclick="send(3, 'pcg3')">Pcg 3</div>
+            <div onclick="send(3, 'pcg4')">Pcg 4</div>
+            <div onclick="send(3, 'pcg5')">Pcg 5</div>   
+    </div>  
+</div>
+
+<script>
+    let lang = "en";
+
+    function setLang(l) {
+        lang = l;
+        $(".lang").children("div").removeClass("current");
+        $("."+lang).addClass("current");
+    }
+
+    function send(exp, type) {
+        var xmlHttp = new XMLHttpRequest();
+        xmlHttp.open( "GET", "/api/check/192.168.10.8/state/"+exp+"/"+lang+"/"+type, false ); // false for synchronous request
+        xmlHttp.send( null );
+        return xmlHttp.responseText;
+    }
+</script>
+<div id="modal"></div>
+
+<!-- <script src="./touch-screen.min.js"></script> -->
+</body>
+</html>

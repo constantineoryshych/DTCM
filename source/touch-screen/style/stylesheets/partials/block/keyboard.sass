@@ -1,0 +1,89 @@
+.keyboard
+    width: 100%
+    max-width: 1750px
+    margin: 0 auto
+    background: rgba(90, 97, 103, 0.75)
+    padding: 25px 145px
+    box-sizing: border-box
+
+.keyboard-wrapper
+    position: fixed
+    bottom: 145px
+    z-index: 10000
+    width: 1750px
+    left: calc(50% - 875px)
+
+    .keyboard-row
+        display: flex
+        justify-content: center
+        max-width: 1340px
+        margin: 0 auto
+
+//&:nth-child(3):after
+//	display: flex
+//	justify-content: space-around
+//	align-items: center
+//	width: 200px
+//	height: 100px
+//	font-size: 36px
+//	font-family: 'Dubai-Bold', sans-serif
+//	border-radius: 15px
+//	margin: 6px
+//	content: "Done"
+//	background-color: $blue
+//	color: white
+
+.keyboard-button
+    display: flex
+    justify-content: space-around
+    align-items: center
+    flex-basis: 100px
+    font-size: 36px
+    height: 100px
+    border-radius: 15px
+    background-color: #dedde2
+    color: #66656a
+    font-family: "Dubai-Bold", sans-serif
+    margin: 6px
+
+    &:focus
+        outline: none
+
+    &:disabled
+        opacity: 0.4
+        cursor: default
+        opacity: 0.4
+        cursor: default
+
+    &:active
+        background-color: $blue
+        color: white
+
+    &.shift-symbols
+        flex-basis: 210px
+
+    &.keyboard-halfButton
+        flex-basis: 56px
+
+    &.keyboard-space, &.shift-symbols:first-child
+        flex-grow: 1
+        display: none
+
+    &.keyboard-utilButton
+        flex-grow: 2
+        max-width: 55px
+
+    &.keyboard-additionalButton
+        flex-basis: 128px
+
+    &.keyboard-submitButton, &.keyboard-submit-button
+        width: 200px
+        flex-basis: 200px
+        background-color: $blue
+        color: #ffffff
+
+//display: none
+
+.keyboard-keysSet
+    display: flex
+    flex-grow: 1

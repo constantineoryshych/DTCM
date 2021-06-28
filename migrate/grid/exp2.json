@@ -1,0 +1,108 @@
+[
+	{
+		"row": [
+			{ "type": "mp4", "name": "1_BEA", "size": "x1280y720" },
+			{
+				"column": true,
+				"row": [
+					{ "type": "jpg", "name": "info_BEA", "size": "x640y360", "lang": true },
+					{ "type": "jpg", "name": "2_BEA", "size": "x640y360" }
+				]
+			}
+		]
+	},
+	{
+		"row": [
+			{ "type": "jpg", "name": "3_BEA", "size": "x480y540" },
+			{ "type": "mp4", "name": "4_BEA", "size": "x480y540" },
+			{ "type": "jpg", "name": "5_BEA", "size": "x960y540" }
+		]
+	},
+	{
+		"row": [
+			{ "type": "jpg", "name": "6_BEA", "size": "x640y480" },
+			{
+				"column": true,
+				"row": [
+					{ "type": "jpg", "name": "7_BEA", "size": "x640y240", "lang": true },
+					{ "type": "jpg", "name": "8_BEA", "size": "x640y240" }
+				]
+			},
+			{ "type": "mp4", "name": "9_BEA", "size": "x640y480" }
+		]
+	},
+	{
+		"row": [{ "type": "jpg", "name": "10_BEA", "size": "x1920y780" }]
+	},
+	{
+		"row": [
+			{ "type": "mp4", "name": "11_BEA", "size": "x1280y720" },
+			{ "type": "jpg", "name": "12_BEA", "size": "x640y720" }
+		]
+	},
+	{
+		"row": [
+			{
+				"column": true,
+				"row": [
+					{ "type": "jpg", "name": "13_BEA", "size": "x1280y480" },
+					{
+						"row": [
+							{ "type": "jpg", "name": "14_BEA", "size": "x640y240", "lang": true },
+							{ "type": "jpg", "name": "15_BEA", "size": "x640y240" }
+						]
+					}
+				]
+			},
+			{ "type": "jpg", "name": "16_BEA", "size": "x640y720" }
+		]
+	},
+	{
+		"row": [
+			{ "type": "mp4", "name": "17_BEA", "size": "x960y480", "lang": true },
+			{ "type": "jpg", "name": "18_BEA", "size": "x960y480" }
+		]
+	},
+	{
+		"row": [
+			{ "type": "jpg", "name": "19_BEA", "size": "x1280y720" },
+			{
+				"column": true,
+				"row": [
+					{ "type": "jpg", "name": "20_BEA", "size": "x640y480" },
+					{ "type": "jpg", "name": "21_BEA", "size": "x640y240" }
+				]
+			}
+		]
+	},
+	{
+		"row": [
+			{ "type": "jpg", "name": "22_BEA", "size": "x960y480" },
+			{ "type": "jpg", "name": "23_BEA", "size": "x960y480" }
+		]
+	},
+	{
+		"row": [
+			{ "type": "jpg", "name": "24_BEA", "size": "x960y480" },
+			{ "type": "mp4", "name": "25_BEA", "size": "x960y480", "lang": true }
+		]
+	},
+	{
+		"row": [
+			{ "type": "mp4", "name": "26_BEA", "size": "x1280y720" },
+			{ "type": "jpg", "name": "27_BEA", "size": "x640y720" }
+		]
+	},
+	{
+		"row": [
+			{
+				"column": true,
+				"row": [
+					{ "type": "jpg", "name": "28_BEA", "size": "x640y240" },
+					{ "type": "jpg", "name": "29_BEA", "size": "x640y480", "lang": true }
+				]
+			},
+			{ "type": "jpg", "name": "30_BEA", "size": "x1280y720" }
+		]
+	}
+]

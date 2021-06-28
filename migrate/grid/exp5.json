@@ -1,0 +1,123 @@
+[
+	{
+		"row": [
+			{ "type": "mp4", "name": "1_DIN", "size": "x1280y720" },
+			{
+				"column": true,
+				"row": [
+					{ "type": "jpg", "name": "info_DIN", "size": "x640y360", "lang": true },
+					{ "type": "jpg", "name": "2_DIN", "size": "x640y360" }
+				]
+			}
+		]
+	},
+	{
+		"row": [
+			{ "type": "jpg", "name": "3_DIN", "size": "x640y720" },
+			{
+				"column": true,
+				"row": [
+					{ "type": "jpg", "name": "4_DIN", "size": "x640y480" },
+					{ "type": "jpg", "name": "5_DIN", "size": "x640y240" }
+				]
+			},
+			{ "type": "jpg", "name": "6_DIN", "size": "x640y720" }
+		]
+	},
+	{
+		"type": "row15",
+		"row": [
+			{
+				"column": true,
+				"row": [
+					{
+						"row": [
+							{ "type": "jpg", "name": "7_DIN", "size": "x960y480" },
+							{ "type": "jpg", "name": "8_DIN", "size": "x320y480" }
+						]
+					},
+					{
+						"row": [
+							{ "type": "jpg", "name": "10_DIN", "size": "x640y240", "lang": true },
+							{ "type": "mp4", "name": "13_DIN", "size": "x640y540" }
+						]
+					}
+				]
+			},
+			{ "type": "jpg", "name": "9_DIN", "size": "x640y1020" }
+		]
+	},
+	{
+		"type": "row30",
+		"row": [
+			{
+				"column": true,
+				"row": [
+					{ "type": "jpg", "name": "11_DIN", "size": "x640y540" },
+					{ "type": "jpg", "name": "12_DIN", "size": "x640y480" }
+				]
+			},
+			{ "type": "jpg", "name": "14_DIN", "size": "x1280y720" }
+		]
+	},
+	{
+		"row": [
+			{
+				"column": true,
+				"row": [
+					{ "type": "mp4", "name": "15_DIN", "size": "x960y480", "lang": true },
+					{ "type": "jpg", "name": "16_DIN", "size": "x960y240" }
+				]
+			},
+			{ "type": "jpg", "name": "17_DIN", "size": "x960y720" }
+		]
+	},
+	{
+		"row": [
+			{ "type": "mp4", "name": "18_DIN", "size": "x1280y720" },
+			{
+				"column": true,
+				"row": [
+					{ "type": "jpg", "name": "19_DIN", "size": "x640y480" },
+					{ "type": "jpg", "name": "20_DIN", "size": "x640y240" }
+				]
+			}
+		]
+	},
+	{
+		"row": [
+			{
+				"column": true,
+				"row": [
+					{ "type": "jpg", "name": "21_DIN", "size": "x640y360" },
+					{ "type": "mp4", "name": "22_DIN", "size": "x640y660" }
+				]
+			},
+			{ "type": "jpg", "name": "23_DIN", "size": "x1280y1020" }
+		]
+	},
+	{
+		"row": [
+			{ "type": "mp4", "name": "24_DIN", "size": "x1280y720" },
+			{ "type": "jpg", "name": "25_DIN", "size": "x640y720" }
+		]
+	},
+	{
+		"row": [
+			{
+				"column": true,
+				"row": [
+					{ "type": "jpg", "name": "26_DIN", "size": "x640y240", "lang": true },
+					{ "type": "jpg", "name": "27_DIN", "size": "x640y240" }
+				]
+			},
+			{ "type": "jpg", "name": "28_DIN", "size": "x1280y480" }
+		]
+	},
+	{
+		"row": [
+			{ "type": "jpg", "name": "29_DIN", "size": "x960y480", "lang": true },
+			{ "type": "mp4", "name": "30_DIN", "size": "x960y480", "lang": true }
+		]
+	}
+]

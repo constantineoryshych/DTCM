@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Dubai-Regular';
+    src: url("/public/content-library/gui/fonts/Dubai-Regular.eot?#iefix") format("embedded-opentype"), url("/public/content-library/gui/fonts/Dubai-Regular.woff") format("woff"), url("/public/content-library/gui/fonts/Dubai-Regular.ttf") format("truetype"), url("/public/content-library/gui/fonts/Dubai-Regular.svg#Dubai-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body.vscode-light {
+    /* direction: rtl; */
+    color: #fff;
+    background-color: rgb(0, 144, 215);
+    font-family: 'Dubai-Regular';
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 75px;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 48px;
+}
+
+p {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: disc inside;
+}
+
+ul li {
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0 0 15px 15px;
+}
+
+em {
+    font-style: italic;
+}

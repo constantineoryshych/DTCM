@@ -1,0 +1,72 @@
+body.ar
+    .form-wrapper .article
+        text-align: right
+
+    .form-wrap
+        text-align: right
+
+        input
+            background: rgba(182, 182, 182, 0.75) url(/public/content-library/gui/touch-screen/icon/require.png) 8% 50% no-repeat
+            background-size: 20px
+            text-align: right
+
+        .checkbox-wrap > div
+            display: flex
+            flex-direction: row-reverse
+
+            .item
+                flex-direction: row-reverse
+
+                > div
+                    margin-right: 0
+                    margin-left: 30px
+                    border-top-left-radius: 0
+                    border-bottom-right-radius: 0
+                    border-top-right-radius: 15px
+                    border-bottom-left-radius: 15px
+
+            .notice
+                margin-left: 320px
+                width: 300px
+
+                &:after
+                    display: none
+
+                &:before
+                    display: block
+                    content: ""
+                    width: 0
+                    height: 0
+                    border-style: solid
+                    border-width: 15px 0 15px 15px
+                    border-color: transparent transparent transparent #0090d6
+                    -moz-transform: scaleX(-1)
+                    -o-transform: scaleX(-1)
+                    -webkit-transform: scaleX(-1)
+                    transform: scaleX(-1)
+                    filter: FlipX
+                    -ms-filter: "FlipX"
+
+    .form-wrapper.policy .close-policy
+        right: 75px
+        left: auto
+
+    h1, h2, h3, h4, h5, h6,
+    p,
+    ul > li
+        direction: rtl
+
+    .welcome-page
+        .button p
+            direction: ltr
+
+        .button.ar p
+            direction: rtl
+
+    .pcg-preview .info
+        text-align: right
+        padding: 75px 30px 0 0
+
+body .welcome-page
+    .button.ar p
+        direction: rtl

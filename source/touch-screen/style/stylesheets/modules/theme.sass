@@ -1,0 +1,123 @@
+body
+	background-color: $bg
+	color: $text
+	user-select: none
+	-webkit-user-select: none
+	-ms-user-select: none
+
+::-webkit-scrollbar
+	display: none
+
+.blue
+	background-color: $blue
+	&.light
+		background-color: $lblue
+
+.blue-text
+	color: $blue
+	&.light
+		color: $lblue
+
+.pink
+	background-color: $pink
+
+.pink-text
+	color: $pink
+
+.grey
+	background-color: $grey
+
+.grey-text
+	color: $grey
+
+.white-text
+	color: white
+
+// Buttons
+.button
+	text-align: center
+	box-sizing: border-box
+	&.blue, &.pink
+		color: white
+
+	&.blue:hover,
+	&.blue:active
+		@extend .pink
+
+	&.pink:hover,
+	&.pink:active
+		@extend .blue
+
+	&.grey:hover,
+	&.grey:active
+		@extend .pink
+
+	&.disable
+		opacity: .3
+
+	&:not(.disable):active
+		background: $blue
+		color: #fff
+
+// Forms
+input
+
+
+// Scrollbars
+body
+	overflow: hidden
+
+.experience-grid
+	-ms-overflow-style: none
+	-ms-scroll-rails: none
+	-webkit-overflow-scrolling: touch
+	overflow-y: scroll
+	> div
+		position: relative
+
+// Custom
+.bg
+	position: absolute
+	top: 0
+	left: 0
+	width: 100%
+	height: 100%
+	overflow: hidden
+	z-index: -1
+	> div
+		position: absolute
+		margin: 0
+		width: 100%
+		height: 100%
+		@extend .blue
+		opacity: .5
+
+.slider > img
+	@extend .bg
+
+.arrow-icon
+	position: fixed
+	bottom: 30px
+	width: 90px
+	left: 1920/2 - 45px
+	z-index: 100
+
+	.icon-bg
+		fill: #fff
+    	opacity: .45
+
+	.border, .arrow-anim > path
+    	fill: #0090d7
+
+	&.icon-color-white
+		.icon-bg
+			fill: #0090d7
+			opacity: 1
+
+		.border, .arrow-anim > path
+			fill: #fff
+
+	&.disable
+		opacity: 0
+		-webkit-transition: opacity .5s ease-in-out
+		transition: opacity .5s ease-in-out

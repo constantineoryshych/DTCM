@@ -1,0 +1,60 @@
+.twoStringPcg
+    padding-top: 30px !important
+
+.threeStringPcg
+    padding-top: 0 !important
+
+body.ar .pcg-preview .twoStringPcg
+    h5
+        font-size: 52px !important
+
+.exp-preview, .pcg-preview
+    color: white
+
+    .exp-bg, .pcg-bg
+        position: relative
+        z-index: -1
+        width: inherit
+        height: inherit
+        background-color: #000
+
+        > img
+            width: 100%
+            height: 100%
+
+        > div
+            position: absolute
+            margin: 0
+            width: 100%
+            height: 100%
+        //    background-color: rgba(0, 0, 0, 0.5)
+
+    .pcg-bg
+        margin-bottom: -134px
+
+    .exp-bg
+        margin-bottom: -320px
+
+    .info
+        padding: 75px 0 0
+        display: flex
+        flex-direction: column
+        text-align: center
+
+        > img
+            width: 140px
+            height: 140px
+            margin: 0 auto 20px
+
+    &:hover, &:active
+        .exp-bg > div
+            background-color: $blue
+            opacity: 0.5
+
+        .pcg-bg > div
+            background-color: $pink
+            opacity: 0.5
+
+.pcg-preview .info
+    text-align: left
+    padding-left: 30px
